@@ -50,7 +50,7 @@ WORKDIR /server
 
 EXPOSE 25565
 
-CMD echo eula=true > /server/eula.txt && java -Xmx1024M -Xms1024M -jar server.jar nogui
+CMD echo eula=true > /server/eula.txt && java -jar server.jar nogui
 
 # https://docs.oracle.com/javase/10/tools/jshell.htm
 # https://docs.oracle.com/javase/10/jshell/
